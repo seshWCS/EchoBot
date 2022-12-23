@@ -4,4 +4,6 @@ services:
   tgbot:
     build:
        context: ./
+    expose:
+      - 1337
 
